@@ -1,0 +1,18 @@
+# Verified working set — a full end-to-end run of design-archaeology.ipynb
+# reproduced every headline number in the README against these versions
+# (Python 3.12.4, Windows, CPU only, 55 min wall clock).
+#
+#   pip install -r requirements.txt
+#   jupyter lab design-archaeology.ipynb      # then Run All
+#
+# On Kaggle, skip this file: the base image already ships all five libraries.
+# The notebook has no other dependencies and needs no internet at runtime.
+
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.9
+pillow==11.2.1
+
+# Only needed to execute the notebook locally (not imported by it):
+jupyterlab==4.6.3
